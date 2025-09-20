@@ -1,0 +1,30 @@
+header
+    padding: 20px 0
+    position: fixed
+    top: 0
+    right: 0
+    left: 0
+    z-index: 1
+    background-color: #ffffff
+    .text
+        h1
+            font-weight: 400
+            font-size: 35px
+            &:hover
+                cursor: pointer
+    .menu
+        nav
+            a
+                color: #535252
+                margin-right: 35px
+                font-size: 20px
+                &:hover
+                    cursor: pointer
+                    color: #000000
+    .minimenu
+        display: none
+    @media ( max-width: 992px )
+        .menu
+            display: none
+        .minimenu
+            display: block

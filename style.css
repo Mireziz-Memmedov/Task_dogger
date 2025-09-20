@@ -3,12 +3,19 @@ body {
   font-weight: 500;
 }
 
+.imgbox {
+  overflow: hidden;
+}
 .imgbox img {
   width: 100%;
 }
 
+section {
+  padding: 60px 0;
+}
+
 #carefor {
-  padding: 40px 0;
+  background-color: #f8f9fa;
 }
 #carefor .textbox {
   width: 470px;
@@ -17,13 +24,34 @@ body {
   font-weight: 700;
   font-size: 60px;
   margin: 0 0 10px;
+  line-height: 1.4;
+}
+#carefor .textbox h1:hover {
+  cursor: text;
 }
 #carefor .textbox h4 {
   color: #a3a8a3;
   font-size: 24px;
+  font-weight: 100;
+}
+#carefor .textbox h4:hover {
+  cursor: text;
 }
 #carefor .imgbox {
-  width: 500px;
+  width: 450px;
+}
+@media (max-width: 768px) {
+  #carefor .textbox {
+    text-align: center;
+    width: auto;
+  }
+  #carefor .textbox h1 {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+  #carefor .textbox h4 {
+    font-size: 18px;
+  }
 }
 
 #welcome {
@@ -368,4 +396,41 @@ body {
 #services .bigicon i {
   font-size: 30px;
   color: #5e8385;
+}
+
+header {
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #ffffff;
+}
+header .text h1 {
+  font-weight: 400;
+  font-size: 35px;
+}
+header .text h1:hover {
+  cursor: pointer;
+}
+header .menu nav a {
+  color: #535252;
+  margin-right: 35px;
+  font-size: 20px;
+}
+header .menu nav a:hover {
+  cursor: pointer;
+  color: #000000;
+}
+header .minimenu {
+  display: none;
+}
+@media (max-width: 992px) {
+  header .menu {
+    display: none;
+  }
+  header .minimenu {
+    display: block;
+  }
 }/*# sourceMappingURL=style.css.map */

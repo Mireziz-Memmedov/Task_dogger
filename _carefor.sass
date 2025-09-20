@@ -1,13 +1,28 @@
 #carefor
-    padding: 40px 0
+    background-color: #f8f9fa
     .textbox
         width: 470px
         h1
             font-weight: 700
             font-size: 60px
             margin: 0 0 10px
+            line-height: 1.4
+            &:hover
+                cursor: text
         h4
             color: #a3a8a3
             font-size: 24px
+            font-weight: 100
+            &:hover
+                cursor: text
     .imgbox
-        width: 500px
+        width: 450px
+    @media ( max-width: 768px )
+        .textbox
+            text-align: center
+            width: auto
+            h1
+                margin-top: 50px
+                font-size: 30px
+            h4
+                font-size: 18px
