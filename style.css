@@ -1,0 +1,371 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+.imgbox img {
+  width: 100%;
+}
+
+#carefor {
+  padding: 40px 0;
+}
+#carefor .textbox {
+  width: 470px;
+}
+#carefor .textbox h1 {
+  font-weight: 700;
+  font-size: 60px;
+  margin: 0 0 10px;
+}
+#carefor .textbox h4 {
+  color: #a3a8a3;
+  font-size: 24px;
+}
+#carefor .imgbox {
+  width: 500px;
+}
+
+#welcome {
+  padding: 40px 0;
+}
+#welcome .textbox {
+  padding: 80px;
+}
+#welcome .textbox .icon {
+  color: #517d79;
+}
+#welcome .textbox .icon i {
+  font-size: 30px;
+}
+#welcome .textbox h1 {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 15px 0;
+}
+#welcome .textbox h3 {
+  color: #848684;
+  margin: 20px 0 40px;
+  font-size: 20px;
+  line-height: 1.4;
+}
+#welcome .textbox h2, #welcome .textbox h6 {
+  margin: 15px 0;
+}
+#welcome .textbox h2 {
+  font-size: 33px;
+}
+#welcome .textbox h6 {
+  font-size: 18px;
+  line-height: 1.7;
+}
+#welcome .textbox .btn {
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: #295c39;
+  color: white;
+}
+#welcome .wid {
+  width: 580px;
+  padding: 0;
+}
+
+#aboutus {
+  padding: 90px 0;
+}
+#aboutus .textbox {
+  padding: 0 100px;
+}
+#aboutus .textbox h1 {
+  font-weight: 500;
+  font-size: 35px;
+  margin: 15px 0;
+}
+#aboutus .textbox h3, #aboutus .textbox p {
+  color: #a8a8a8;
+  font-weight: 100;
+  margin: 20px 0 0;
+  font-size: 20px;
+  line-height: 1.6;
+}
+#aboutus .textbox p {
+  color: #949494;
+  font-size: 20px;
+  line-height: 1.4;
+}
+#aboutus .textbox li {
+  display: flex;
+  padding: 20px 0 0 0;
+}
+#aboutus .textbox li .icon {
+  padding: 0 15px 0 0;
+  color: #5e8385;
+}
+#aboutus .textbox h4 {
+  font-size: 20px;
+  color: #423737;
+}
+#aboutus .imgbox {
+  width: 450px;
+}
+#aboutus .bigicon i {
+  font-size: 30px;
+  color: #5e8385;
+}
+
+#ourtrainers {
+  padding: 40px 0;
+}
+#ourtrainers h1 {
+  font-weight: 700;
+  font-size: 38px;
+  margin: 15px 0;
+}
+#ourtrainers h3, #ourtrainers h4 {
+  font-weight: 300;
+  font-size: 20px;
+  margin: 20px 0;
+  color: #a8a8a8;
+  line-height: 1.4;
+}
+#ourtrainers .box {
+  margin: 0 5px;
+}
+#ourtrainers .box .textbox {
+  padding: 15px;
+}
+#ourtrainers .box .textbox h2 {
+  padding: 20px 0 0;
+  font-weight: 300;
+  font-size: 25px;
+}
+#ourtrainers .box .textbox ul {
+  display: flex;
+}
+#ourtrainers .box .textbox ul li {
+  margin: 0 10px;
+  border-radius: 50%;
+  background-color: #d4cece;
+  padding: 20px;
+  width: 10px;
+  height: 10px;
+}
+#ourtrainers .box .textbox ul li .icon {
+  margin: -7px;
+}
+#ourtrainers .wid {
+  width: 580px;
+}
+#ourtrainers .bigicon i {
+  font-size: 30px;
+  color: #5e8385;
+}
+
+#pricingtable {
+  padding: 40px 0;
+}
+#pricingtable .textbox {
+  width: 580px;
+  text-align: center;
+}
+#pricingtable .textbox h1 {
+  font-weight: 700;
+  font-size: 35px;
+  margin: 15px 0;
+}
+#pricingtable .textbox h5 {
+  font-weight: 200;
+  font-size: 20px;
+  color: #000000;
+  margin: 20px 0 50px;
+  line-height: 1.4;
+}
+#pricingtable .box {
+  width: 340px;
+  color: white;
+  background-color: #708f97;
+  padding: 50px 30px;
+  text-align: center;
+}
+#pricingtable .box h2 {
+  font-size: 25px;
+}
+#pricingtable .box h3 {
+  font-size: 25px;
+  margin: 20px 0 0;
+}
+#pricingtable .box li {
+  display: flex;
+  margin: 25px 0 0;
+}
+#pricingtable .box li h4 {
+  font-size: 18px;
+  margin: 0 0 0 10px;
+}
+#pricingtable .box .btn {
+  padding: 10px 35px;
+  margin: 30px 0 0;
+  border-radius: 30px;
+  background-color: #2b383c;
+  color: white;
+}
+#pricingtable .premium-color {
+  background-color: #2b383c;
+}
+#pricingtable .premium-color .btn {
+  background-color: #708f97;
+}
+#pricingtable .bigicon i {
+  font-size: 30px;
+  color: #5e8385;
+}
+
+#questions {
+  padding: 40px 0;
+}
+#questions .wid {
+  width: 580px;
+}
+#questions h1 {
+  margin: 15px 0;
+  font-weight: 700;
+  font-size: 36px;
+}
+#questions h3 {
+  font-size: 20px;
+  margin: 0 0 40px;
+  line-height: 1.4;
+}
+#questions .textbox {
+  padding: 0 70px;
+}
+#questions .textbox h2, #questions .textbox h4 {
+  margin: 0 0 0 10px;
+  font-size: 25px;
+  color: #717171;
+}
+#questions .textbox .minibox {
+  margin: 20px 0 0 0;
+}
+#questions .textbox .minibox .icon {
+  color: white;
+  border-radius: 50%;
+  padding: 15px;
+  background-color: #5e8385;
+}
+#questions .textbox .minibox .icon i {
+  font-size: 18px;
+}
+#questions .textbox .minibox h2 {
+  margin: 0 0 0 10px;
+}
+#questions .textbox p {
+  font-size: 20px;
+  margin: 30px 0 0 32px;
+  color: #949494;
+  line-height: 1.4;
+}
+#questions .textbox li {
+  margin: 30px 0 0;
+  display: flex;
+}
+#questions .textbox li .icon {
+  color: #d4cece;
+  border-radius: 50%;
+  padding: 5px;
+  border: 1px solid #66cbe4;
+}
+#questions .textbox li .icon i {
+  font-size: 18px;
+}
+#questions .bigicon {
+  color: #5e8385;
+}
+#questions .bigicon i {
+  font-size: 30px;
+}
+
+#dogger {
+  padding: 40px 0;
+}
+#dogger .box {
+  display: flex;
+}
+#dogger h1 {
+  font-weight: 700;
+  font-size: 35px;
+  margin: 15px 0;
+}
+#dogger h3 {
+  font-size: 20px;
+  margin: 30px 0 60px;
+  line-height: 1.4;
+}
+#dogger .textbox {
+  margin: 0 0 0 20px;
+}
+#dogger .textbox .icon i {
+  font-size: 30px;
+  color: #5e8385;
+}
+#dogger .textbox h2 {
+  font-size: 20px;
+}
+#dogger .textbox h4 {
+  font-size: 18px;
+  color: #aba8a8;
+}
+#dogger .textbox p {
+  font-size: 18px;
+  color: #8f8686;
+  line-height: 1.4;
+}
+#dogger .textbox p, #dogger .textbox h4 {
+  margin: 20px 0 0;
+}
+#dogger .wid {
+  width: 580px;
+}
+
+#services {
+  padding: 40px 0;
+}
+#services .wid {
+  width: 580px;
+}
+#services h1 {
+  font-weight: 700;
+  font-size: 35px;
+  margin: 15px 0;
+}
+#services h3 {
+  color: #c6c6c6;
+  font-size: 20px;
+  margin: 30px 0;
+  line-height: 1.4;
+}
+#services .textbox {
+  padding: 30px 40px;
+}
+#services .textbox h2 {
+  margin: 20px 0 0;
+  color: #757575;
+  font-size: 25px;
+}
+#services .textbox h3 {
+  margin: 30px 0 0;
+}
+#services .textbox .icon {
+  font-size: 60px;
+  color: #93c2f4;
+}
+#services .textbox .bone-color {
+  color: #e9e084;
+}
+#services .textbox .medicial-fen-color {
+  color: #e95c5c;
+}
+#services .bigicon i {
+  font-size: 30px;
+  color: #5e8385;
+}/*# sourceMappingURL=style.css.map */
