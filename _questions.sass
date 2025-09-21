@@ -1,4 +1,10 @@
 #questions
+    h1, h3, p
+        &:hover
+            cursor: text
+    h2, h4, .icon, i
+        &:hover
+            cursor: pointer
     .wid
         width: 580px
     h1
@@ -9,6 +15,7 @@
         font-size: 20px
         margin: 0 0 40px
         line-height: 1.4
+        color: #949494
     .textbox
         padding: 0 70px
         h2, h4
@@ -18,30 +25,48 @@
         .minibox
             margin: 20px 0 0 0
             .icon
-                color: #ffff
+                display: flex
+                justify-content: center
+                align-items: center
+                color: #ffffff
                 border-radius: 50%
-                padding: 15px
-                background-color: #5e8385
-                i
-                    font-size: 18px
+                min-width: 32px
+                min-height: 32px
+                max-width: 32px
+                max-height: 32px
+                background-color: #a2c0be
             h2
                 margin: 0 0 0 10px
         p
             font-size: 20px
-            margin: 30px 0 0 32px
+            margin: 25px 0 40px 40px
             color: #949494
             line-height: 1.4
         li
-            margin: 30px 0 0
+            margin: 17px 0 0
             display: flex
             .icon
-                color: #d4cece
+                display: flex
+                justify-content: center
+                align-items: center
+                min-width: 32px
+                min-height: 32px
+                max-width: 32px
+                max-height: 32px
                 border-radius: 50%
-                padding: 5px
-                border: 1px solid #66cbe4
-                i
-                    font-size: 18px
+                color: #949494
+                border: 1px solid #a2c0be
     .bigicon
-        color: #5e8385
+        color: #a2c0be
         i
             font-size: 30px
+    .imgbox
+        width: 560px
+    @media ( max-width: 1200px )
+        .textbox
+            padding: 0
+    @media ( max-width: 992px )
+        .media
+            flex-direction: column-reverse
+            .imgbox
+                width: auto
