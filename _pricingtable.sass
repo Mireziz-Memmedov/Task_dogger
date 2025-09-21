@@ -1,4 +1,9 @@
 #pricingtable
+    h1, h2, h3, h4, h5
+        &:hover
+            cursor: text
+    h4
+        text-align: start
     .textbox
         width: 580px
         text-align: center
@@ -13,9 +18,8 @@
             margin: 20px 0 50px
             line-height: 1.4
     .box
-        width: 340px
-        color: #ffff
-        background-color: #708f97
+        color: #ffffff
+        background-color: #a2c0be
         padding: 50px 30px
         text-align: center
         h2
@@ -29,17 +33,30 @@
             h4
                 font-size: 18px
                 margin: 0 0 0 10px
+            .through
+                text-decoration: line-through
+                color: #dbdbdb
         .btn
             padding: 10px 35px
-            margin: 30px 0 0
+            margin: 60px 0 0
             border-radius: 30px
-            background-color: #2b383c
-            color: #ffff
+            background-color: #5b6567
+            color: #ffffff
+            &:hover
+                background-color: #31484e
+            h4
+                &:hover
+                    cursor: pointer
     .premium-color
-        background-color: #2b383c
+        background-color: #31484e
         .btn
-            background-color: #708f97
+            background-color: #a2c0be
+            &:hover
+                background-color: #000000
     .bigicon
         i
             font-size: 30px
-            color: #5e8385
+            color: #a2c0be
+    @media ( max-width: 992px )
+        .box
+            margin-bottom: 20px
