@@ -1,15 +1,19 @@
 #ourtrainers
-    padding: 40px 0
+    background-color: #a2c0be
     h1
         font-weight: 700
         font-size: 38px
         margin: 15px 0
+        &:hover
+            cursor: text
     h3, h4
         font-weight: 300
         font-size: 20px
         margin: 20px 0
-        color: #a8a8a8
+        color: #494949
         line-height: 1.4
+        &:hover
+            cursor: text
     .box
         margin: 0 5px
         .textbox
@@ -18,20 +22,35 @@
                 padding: 20px 0 0
                 font-weight: 300
                 font-size: 25px
+                &:hover
+                    cursor: text
             ul
                 display: flex
                 li
-                    margin: 0 10px
+                    margin-right: 10px
+                    display: flex
+                    justify-content: center
+                    align-items: center
                     border-radius: 50%
-                    background-color: #d4cece
-                    padding: 20px
-                    width: 10px
-                    height: 10px
+                    background-color: #ffffff
+                    width: 30px
+                    height: 30px
+                    transition: 0.3s
+                    &:hover
+                        cursor: pointer
+                        transform: translateY(-10px)
                     .icon
-                        margin: -7px
+                        font-size: 12px
+                        i
+                            &:hover
+                                cursor: pointer
+        .imgbox
+            transition: 0.5s
+            &:hover
+                box-shadow: 10px 10px #000000
     .wid
         width: 580px
     .bigicon
         i
             font-size: 30px
-            color: #5e8385
+            color: #ffffff

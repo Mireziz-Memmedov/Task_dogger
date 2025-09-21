@@ -1,7 +1,9 @@
 #aboutus
-    padding: 90px 0
     .textbox
         padding: 0 100px
+        h1, h3, h4, p
+            &:hover
+                cursor: text
         h1
             font-weight: 500
             font-size: 35px
@@ -21,13 +23,21 @@
             padding: 20px 0 0 0
             .icon
                 padding: 0 15px 0 0
-                color: #5e8385
+                color: #a2c0be
         h4
             font-size: 20px
             color: #423737
     .imgbox
-        width: 450px
+        img
+            &:hover
+                cursor: pointer
     .bigicon
         i
             font-size: 30px
-            color: #5e8385
+            color: #a2c0be
+    @media ( max-width: 992px )
+        .textbox
+            padding: 0
+        .imgbox
+            margin-top: 50px
+        

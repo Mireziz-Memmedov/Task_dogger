@@ -54,17 +54,17 @@ section {
   }
 }
 
-#welcome {
-  padding: 40px 0;
-}
 #welcome .textbox {
   padding: 80px;
 }
 #welcome .textbox .icon {
-  color: #517d79;
+  color: #a2c0be;
 }
 #welcome .textbox .icon i {
   font-size: 30px;
+}
+#welcome .textbox h1:hover, #welcome .textbox h2:hover, #welcome .textbox h3:hover, #welcome .textbox h6:hover {
+  cursor: text;
 }
 #welcome .textbox h1 {
   font-weight: 700;
@@ -86,23 +86,59 @@ section {
 #welcome .textbox h6 {
   font-size: 18px;
   line-height: 1.7;
+  color: #848684;
 }
 #welcome .textbox .btn {
   padding: 10px 30px;
   border-radius: 20px;
-  background-color: #295c39;
-  color: white;
+  background-color: #a2c0be;
+  color: #ffffff;
+}
+#welcome .textbox .btn:hover {
+  background-color: #000000;
+}
+#welcome .textbox .btn h5:hover {
+  cursor: pointer;
 }
 #welcome .wid {
   width: 580px;
   padding: 0;
 }
-
-#aboutus {
-  padding: 90px 0;
+#welcome .end {
+  text-align: end;
 }
+#welcome .start {
+  text-align: start;
+}
+#welcome .imgbox {
+  transition: 0.5s;
+}
+#welcome .imgbox:hover {
+  box-shadow: 10px 10px #a2c0be;
+}
+#welcome .imgbox img:hover {
+  cursor: pointer;
+}
+@media (max-width: 992px) {
+  #welcome .media {
+    flex-direction: column-reverse;
+  }
+  #welcome .end {
+    text-align: start;
+  }
+  #welcome .textbox {
+    padding: 0;
+  }
+  #welcome .textbox .btn {
+    margin-bottom: 20px;
+  }
+}
+
 #aboutus .textbox {
   padding: 0 100px;
+}
+#aboutus .textbox h1:hover, #aboutus .textbox h3:hover, #aboutus .textbox h4:hover, #aboutus .textbox p:hover {
+  cursor: text;
 }
 #aboutus .textbox h1 {
   font-weight: 500;
@@ -127,34 +163,48 @@ section {
 }
 #aboutus .textbox li .icon {
   padding: 0 15px 0 0;
-  color: #5e8385;
+  color: #a2c0be;
 }
 #aboutus .textbox h4 {
   font-size: 20px;
   color: #423737;
 }
-#aboutus .imgbox {
-  width: 450px;
+#aboutus .imgbox img:hover {
+  cursor: pointer;
 }
 #aboutus .bigicon i {
   font-size: 30px;
-  color: #5e8385;
+  color: #a2c0be;
+}
+@media (max-width: 992px) {
+  #aboutus .textbox {
+    padding: 0;
+  }
+  #aboutus .imgbox {
+    margin-top: 50px;
+  }
 }
 
 #ourtrainers {
-  padding: 40px 0;
+  background-color: #a2c0be;
 }
 #ourtrainers h1 {
   font-weight: 700;
   font-size: 38px;
   margin: 15px 0;
 }
+#ourtrainers h1:hover {
+  cursor: text;
+}
 #ourtrainers h3, #ourtrainers h4 {
   font-weight: 300;
   font-size: 20px;
   margin: 20px 0;
-  color: #a8a8a8;
+  color: #494949;
   line-height: 1.4;
+}
+#ourtrainers h3:hover, #ourtrainers h4:hover {
+  cursor: text;
 }
 #ourtrainers .box {
   margin: 0 5px;
@@ -167,31 +217,47 @@ section {
   font-weight: 300;
   font-size: 25px;
 }
+#ourtrainers .box .textbox h2:hover {
+  cursor: text;
+}
 #ourtrainers .box .textbox ul {
   display: flex;
 }
 #ourtrainers .box .textbox ul li {
-  margin: 0 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
-  background-color: #d4cece;
-  padding: 20px;
-  width: 10px;
-  height: 10px;
+  background-color: #ffffff;
+  width: 30px;
+  height: 30px;
+  transition: 0.3s;
+}
+#ourtrainers .box .textbox ul li:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
 }
 #ourtrainers .box .textbox ul li .icon {
-  margin: -7px;
+  font-size: 12px;
+}
+#ourtrainers .box .textbox ul li .icon i:hover {
+  cursor: pointer;
+}
+#ourtrainers .box .imgbox {
+  transition: 0.5s;
+}
+#ourtrainers .box .imgbox:hover {
+  box-shadow: 10px 10px #000000;
 }
 #ourtrainers .wid {
   width: 580px;
 }
 #ourtrainers .bigicon i {
   font-size: 30px;
-  color: #5e8385;
+  color: #ffffff;
 }
 
-#pricingtable {
-  padding: 40px 0;
-}
 #pricingtable .textbox {
   width: 580px;
   text-align: center;
