@@ -555,7 +555,7 @@ header {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 1;
+  z-index: 10;
   background-color: #ffffff;
 }
 header .text h1 {
@@ -632,6 +632,7 @@ footer .box input {
   background-color: #2e2c2c;
   border: 1px solid #747272;
   height: 41px;
+  color: #ffffff;
 }
 footer .box .btn {
   background-color: #ffffff;
@@ -649,4 +650,28 @@ footer span {
 }
 footer span:hover {
   cursor: pointer;
+}
+
+#gallery .textbox .icon i {
+  font-size: 30px;
+  color: #a2c0be;
+}
+#gallery .textbox h1 {
+  font-weight: 700;
+  font-size: 35px;
+  margin: 15px 0 50px;
+}
+#gallery .textbox h1:hover {
+  cursor: text;
+}
+#gallery .imgbox {
+  position: relative;
+  transition: 0.3s;
+}
+#gallery .imgbox:hover {
+  transform: scale(1.2);
+  z-index: 5;
+}
+#gallery .imgbox img:hover {
+  cursor: zoom-in;
 }/*# sourceMappingURL=style.css.map */
