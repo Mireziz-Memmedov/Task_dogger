@@ -674,4 +674,74 @@ footer span:hover {
 }
 #gallery .imgbox img:hover {
   cursor: zoom-in;
+}
+
+#contact .color {
+  background-color: #a2c0be;
+}
+#contact .box h2 {
+  font-size: 25px;
+  margin: 30px 0 40px;
+}
+#contact .box h2:hover {
+  cursor: text;
+}
+#contact .box .textbox .minibox {
+  display: flex;
+  flex-direction: column;
+}
+#contact .box .textbox .minibox label {
+  color: #747272;
+  margin: 20px 0 10px;
+}
+#contact .box .textbox .minibox textarea {
+  color: #747272;
+  height: 100px;
+  border-radius: 5px;
+}
+#contact .box .textbox .minibox textarea:hover {
+  cursor: text;
+}
+#contact .box .btn {
+  width: 150px;
+  background-color: #373636;
+  border-radius: 30px;
+  margin: 20px 0 50px;
+}
+#contact .box .btn:hover {
+  background-color: #000000;
+}
+#contact .box .btn h5 {
+  color: #ffffff;
+}
+#contact .box .btn h5:hover {
+  cursor: pointer;
+}
+#contact .black {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #6c757d;
+}
+#contact .black .icon i {
+  font-size: 30px;
+  color: #a2c0be;
+  margin: 50px 0 20px;
+}
+#contact .black h1:hover, #contact .black h3:hover, #contact .black h4:hover {
+  cursor: text;
+}
+#contact .black h1 {
+  font-weight: 700;
+  font-size: 35px;
+  margin: 15px 0;
+  color: #ffffff;
+}
+#contact .black .minibox h3 {
+  color: #ffffff;
+  margin: 30px 0 10px;
+}
+#contact .black .minibox h4 {
+  color: #bfbcbc;
+  margin-bottom: 10px;
 }/*# sourceMappingURL=style.css.map */
